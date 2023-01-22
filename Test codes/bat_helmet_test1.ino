@@ -31,7 +31,7 @@ void loop() //This function keeps running as long as the arduino is powered up.
   /*
     The three lines above generate an ultrasonic pulse with a period of 10 microseconds (default).
   */
-  time = pulseIn (echo_connector, HIGH); // PulseIn function returns the time period for which the echo pin records the reflected wave.
+  time = pulseIn (echo_connector, HIGH); // PulseIn function returns the time period of the reflected wave (See explanations and Illustrations folder for details).
   /*
     Distance = Speed x Time
     Speed = approx 340 m/s = 0.034 cm/us
